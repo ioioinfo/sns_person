@@ -1,0 +1,61 @@
+# Host: localhost  (Version 5.5.47)
+# Date: 2017-02-09 14:29:26
+# Generator: MySQL-Front 5.4  (Build 4.10)
+# Internet: http://www.mysqlfront.de/
+
+/*!40101 SET NAMES utf8 */;
+
+#
+# Structure for table "shape"
+#
+
+DROP TABLE IF EXISTS `shape`;
+CREATE TABLE `shape` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `clothinglength` varchar(255) DEFAULT NULL COMMENT 'yichang',
+  `sleeve` varchar(255) DEFAULT NULL COMMENT 'xiuzichang',
+  `circumference` varchar(255) DEFAULT NULL COMMENT 'xiongwei',
+  `biceps` varchar(255) DEFAULT NULL COMMENT 'xiuzhuang',
+  `the middle of length` varchar(255) DEFAULT NULL COMMENT 'zhongyao',
+  `cuff` varchar(255) DEFAULT NULL COMMENT 'xiukou',
+  `waist circumference` varchar(255) DEFAULT NULL COMMENT 'fuwei',
+  `forebreast` varchar(255) DEFAULT NULL COMMENT 'qianxiong',
+  `hip` varchar(255) DEFAULT NULL COMMENT 'tunwei',
+  `back` varchar(255) DEFAULT NULL COMMENT 'houbei',
+  `BP point` varchar(255) DEFAULT NULL COMMENT 'BPdian',
+  `the height of front abdomen` varchar(255) DEFAULT NULL COMMENT 'qianfugao',
+  `breast distance` varchar(255) DEFAULT NULL COMMENT 'xiongju',
+  `the height of back hip` varchar(255) DEFAULT NULL COMMENT 'houtungao',
+  `he front waistline` varchar(255) DEFAULT NULL COMMENT 'qianyaojie',
+  `the side waist` varchar(255) DEFAULT NULL COMMENT 'cetungao',
+  `the back waistline` varchar(255) DEFAULT NULL COMMENT 'houyaojie',
+  `sleeve length` varchar(255) DEFAULT NULL COMMENT 'xiulongchang',
+  `chest cast` varchar(255) DEFAULT NULL COMMENT 'tingxiong',
+  `punch shoulder` varchar(255) DEFAULT NULL COMMENT 'chongjian',
+  `crookback` varchar(255) DEFAULT NULL COMMENT 'tuobei',
+  `equal footing or rank` varchar(255) DEFAULT NULL COMMENT 'pingjian',
+  `stomach` varchar(255) DEFAULT NULL COMMENT 'weida',
+  `flat` varchar(255) DEFAULT NULL COMMENT 'bianti',
+  `high alizee` varchar(255) DEFAULT NULL COMMENT 'gaotun',
+  `depressed waist` varchar(255) DEFAULT NULL COMMENT 'aoyao',
+  `huge boob` varchar(255) DEFAULT NULL COMMENT 'xiongda',
+  `slip shoulder` varchar(255) DEFAULT NULL COMMENT 'liujian',
+  `round back` varchar(255) DEFAULT NULL COMMENT 'beiyuan',
+  `park body` varchar(255) DEFAULT NULL COMMENT 'yuanti',
+  `paunch` varchar(255) DEFAULT NULL COMMENT 'daduzi',
+  `hollow back` varchar(255) DEFAULT NULL COMMENT 'aobei',
+  `trousers length` varchar(255) DEFAULT NULL COMMENT 'kuchang',
+  `hip height` varchar(255) DEFAULT NULL COMMENT 'tungao',
+  `dress length` varchar(255) DEFAULT NULL COMMENT 'qunchang',
+  `abdomen height` varchar(255) DEFAULT NULL COMMENT 'fugao',
+  `abdomen` varchar(255) DEFAULT NULL COMMENT 'yaowei',
+  `yoke` varchar(255) DEFAULT NULL COMMENT 'hengdang',
+  `rise` varchar(255) DEFAULT NULL COMMENT 'lidang',
+  `leg opening` varchar(255) DEFAULT NULL COMMENT 'jiaokou',
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=gbk;
+
+#
+# Data for table "shape"
+#
+
